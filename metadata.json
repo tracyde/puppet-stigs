@@ -1,0 +1,14 @@
+{
+  "name": "tracyde-stigs",
+  "version": "0.1.0",
+  "author": "Derek Tracy",
+  "summary": "Puppet module used to apply DISA STIGS",
+  "license": "Apache 2.0",
+  "source": "https://github.com/tracyde/puppet-stigs",
+  "project_page": "https://github.com/tracyde/puppet-stigs",
+  "issues_url": "https://github.com/tracyde/puppet-stigs/issues",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
