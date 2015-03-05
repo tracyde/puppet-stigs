@@ -1,4 +1,4 @@
-# == Class: stigs::rules::srg_os_000095
+# == Class: stigs::rules::srg_os_000056
 #
 # Full description of class site here.
 #
@@ -35,7 +35,7 @@
 #
 # Copyright 2014 Your name here, unless otherwise noted.
 #
-class stigs::rules::srg_os_000095 ( ) {
+class stigs::rules::srg_os_000056 ( ) {
     # rhel-06-000247
     # rhel-06-000248
     class { '::ntp': servers => hiera_array('ntp::servers') }
