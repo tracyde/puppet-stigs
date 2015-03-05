@@ -1,7 +1,27 @@
 fixtures:
+  repositories:
+    ssh: "git://github.com/tracyde/puppet-ssh"
   forge_modules:
+    aide:
+      repo: "mklauber-aide"
+      ref: "1.1.0"
+    auditd:
+      repo: "evenup-auditd"
+      ref: "0.2.0"
+    concat: 
+      repo: "puppetlabs/concat"
+      ref: "1.1.0"
+    firewall: 
+      repo: "puppetlabs/firewall"
+      ref: "1.1.3"
+    rsyslog:
+      repo: "saz-rsyslog"
+      ref: "3.3.0"
     stdlib: 
       repo: "puppetlabs/stdlib"
       ref: "4.5.1"
+    sysctl: 
+      repo: "thias/sysctl"
+      ref: "0.3.2"
   symlinks:
     my_module: "#{source_dir}"
